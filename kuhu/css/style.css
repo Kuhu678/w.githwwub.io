@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+:root{
+    --main-bg-color:blue;
+
+}
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+header{
+
+
+    background: var(--main-bg-color);
+     /* border: 2px solid red;  */
+}
+footer{
+    
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+}
+nav ul li{
+    
+    list-style: none;
+    padding: 0 33px;
+}
+nav ul li a{
+    
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+}
+nav{
+    display: flex;
+}
+nav{
+     display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+
+    width: 88px;
+    padding: 0 25px;
+}
+.container{
+
+    min-height: calc(100vh - 58px - 12vh);
+}
+nav ul li a:hover{
+    
+    color: rgb(190, 189, 216);
+    font-weight: bolder;
+}
+.search{
+    display: flex ;
+    align-items: center;
+}
+.search input{
+    width: 493px;
+    height: 23px;
+    border-radius: 2px;
+    margin: 0 16px 0 56px;
+}
+.slider{
+margin: 0 0 0 580px;
+}
+.card{
+
+    max-width: 91vw;
+    margin: auto;
+    
+}
+.my-2{
+    margin: 0 53px 12px;
+}
+
+
+ .text-center{
+     text-align: center;
+ }
+  .card-item{
+      width: 19vh;
+      display: inline-block;
+      margin: 0 30px;
+ } 
+ .card{
+
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+ }
+
+
+
+
